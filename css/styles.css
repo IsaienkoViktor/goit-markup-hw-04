@@ -438,9 +438,8 @@ body {
     display: inline-block;
     margin-bottom: 16px;
 }
-.footer-social{
-    margin-bottom: 132px;
-}
+/* .footer-social{ 
+} */
 .social-text{
     color: white;
     margin-bottom: 16px;

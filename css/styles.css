@@ -546,14 +546,14 @@ body {
     column-gap: 24px;
 }
 .portfolio-item {    
-    width: calc((100% - 48px) / 3);    
+    width: calc((100% - 48px) / 3);
+    display: block;    
 }
-.portfolio-img:hover,
-.portfolio-img:focus{
+.portfolio-item:hover,
+.portfolio-item:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .porfoilo-img{
-    display: block;
 }
 .portfoilo-img-card{
     padding: 32px 16px;

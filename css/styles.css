@@ -366,9 +366,10 @@ body {
 .social-link:focus{
     background-color: #404BBF ;
 }
-/* .social-icon{
+.social-icon{
+    fill: #f4f4fd ;
 
-} */
+}
 
 /**
   |============================
@@ -429,6 +430,9 @@ body {
     padding-bottom: 100px;
 
 }
+.footer-logo-text{
+    gap: 120px;
+}
 .footer-text{
     max-width: 264px;
     font-weight: 400;
@@ -462,6 +466,10 @@ body {
 .footer-social-links{
     display: flex;
     gap: 16px;  
+}
+.social-link-hf:hover,
+.social-link-hf:focus{
+    background-color: #31d0aa;
 }
 /* .social-item{
     width: 40px;
@@ -556,7 +564,7 @@ body {
 .portfolio-item:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-    .porfoilo-img{
+.porfoilo-img{
     display: block;
 }
 .portfoilo-img-card{

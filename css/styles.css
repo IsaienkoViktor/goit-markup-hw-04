@@ -253,7 +253,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color:#F4F4FD;
-    width: 264px;
     height: 112px;
 }
 
@@ -335,25 +334,29 @@ body {
     padding-bottom: 0;
     }
 .ot-item-text{
-    padding: 32px 16px;
+    padding: 32px 0;
     
 }
-/* .social-item{} */
 .social-links{
     display: flex;
     gap: 24px;    
-    /* flex-direction: row;
-    justify-content: center;
-    align-items: center; */
-}
-.social-link{
-    display: flex;    
     justify-content: center;
     align-items: center;
+
+}
+.social-item{  
     width: 40px;
-    height: 40px;
-    background-color: #108de0;
+    height: 40px;         
+ }
+
+.social-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 8px;
     /* margin-bottom: 32px; */
     } 
@@ -361,8 +364,12 @@ body {
     background-color: #404BBF;
 }
 .social-link:focus{
-    background-color: #31D0AA;
+    background-color: #404BBF ;
 }
+.social-icon{
+
+}
+
 /**
   |============================
   | Customers - "c"
@@ -441,13 +448,35 @@ body {
     display: inline-block;
     margin-bottom: 16px;
 }
-/* .footer-social{ 
-} */
+.footer-social{
+    display: flex;
+    align-items: baseline;
+    gap: 120px; 
+} 
 .social-text{
+    font-weight: 500;
     color: white;
-    margin-bottom: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;    
 }
+.social-links{
+    display: flex;
+    gap: 16px;  
+}
+.social-item{
+    width: 40px;
+    height: 40px;
+}
+.social-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 /**
   |============================
   | Portfolio header and footer same to main page 
@@ -525,9 +554,11 @@ body {
 }
 .portfolio-item:hover,
 .portfolio-item:focus{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
+    .porfoilo-img{
+    display: block;
+}
 .portfoilo-img-card{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;

@@ -125,6 +125,7 @@ body {
     padding-bottom: 24px;
  } 
 .header-item-link {
+    font-weight: 500;
     line-height: 1.5;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -332,6 +333,7 @@ body {
     text-align: center;
     color: #434455;
     padding-bottom: 0;
+    margin-bottom: 8px;
     }
 .ot-item-text{
     padding: 32px 0;
@@ -357,7 +359,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     } 
 .social-link:hover{
     background-color: #404BBF;
